@@ -1,0 +1,46 @@
+@use 'banner';
+@use 'about';
+@use 'movies';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cormorant Garamond, serif;
+    font-size: large;
+    list-style: none;
+    color: #f9f9f9;
+}
+
+.header{
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #867200;
+    border-bottom: 2px solid #cdae00;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    img{
+        width: 50px;
+    }
+}
+
+.footer{
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #867200;
+    border-top: 2px solid #cdae00;
+    padding: 12px 0;
+    p{
+        text-align: center;
+        font-size: 12px;
+    }
+}
